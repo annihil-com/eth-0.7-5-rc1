@@ -1,0 +1,102 @@
+eth - Enemy Territory Hack
+--------------------------------------------------------------------------------
+All configs are accessible in game console by the prefix eth_
+
+Features:
+- Aimbot
+- Wallhack
+- Chams
+- Player name, weapon, class, rank esp
+- Dynamite, grenade, satchel, mortar, panzer esp
+- Dynamite counter
+- AutoProtect
+- Sniper zoom removal
+- Sniper black area removal
+- Spawn timer
+- Auto save config by game cvar system
+
+eth cvars:
+--------------------------------------------------------------------------------
+=> eth_advert
+Advert at the top of screen.
+0 - off
+1 - on
+
+=> eth_aim
+Aimbot target.
+0 - no aimbot
+1 - head
+2 - mouth
+3 - torso
+4 - chest
+
+=> eth_aimvecz
+Aimbot height correction from 0 to 10.
+0 - default
+5 - nose (for eth_aim 1)
+10 - top of head (for eth_aim 1)
+
+=> eth_aimdead
+Aiming at dead player who wait a medic.
+0 - off
+1 - on
+
+=> eth_autoshoot
+Shoot at player when visible.
+0 - off
+1 - on
+
+=> eth_chams
+Players chams.
+0 - off
+1-3 - Different chams + esp colors.
+
+=> eth_disp
+Don't show far away player esp.
+0 - off
+2000 - default
+
+=> eth_espfade
+Esp fade from 0 to 100%
+0 - transparent
+70 - default
+100 - plain
+
+=> eth_espname
+Draw players name.
+0 - off
+1 - on
+
+=> eth_espname_bg
+Draw a black area behind players name.
+0 - off
+1 - on
+
+=> eth_espicon
+Draw players rank, class, weapon.
+0 - off
+1 - on
+
+=> eth_espicon_bg
+Draw a black area behind players icons.
+0 - off
+1 - on
+
+=> eth_radar
+Draw a radar.
+0 - off
+1 - on
+
+=> eth_sniperzoom
+Remove sniper zoom.
+0 - off
+1 - on
+
+=> eth_spawntimer
+Show enemy respawn time.
+0 - off
+1 - on
+
+=> eth_wallhack 
+0 - off
+1 - on

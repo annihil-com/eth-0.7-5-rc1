@@ -1,0 +1,13 @@
+eth - Enemy Territory Hack
+--------------------------------------------------------------------------------
+
+Howto install ?
+
+Extract the file.
+$ tar xzf eth-X.tar.gz
+Compile the cheat.
+$ make
+Copy the libETH.so and run.sh to your game folder.
+$ cp libETH.so run.sh /usr/local/your/game/folder
+Launch the game
+$ ./run.sh
